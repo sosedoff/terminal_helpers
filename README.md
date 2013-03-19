@@ -4,7 +4,7 @@ This is a collection of helper method for your console-based applications.
 
 It does not have any gem dependencies and could be easily plugged-in into your existing code.
 
-Was inspired by ```heroku``` CLI app.
+Was initially inspired by `heroku` terminal utility.
 
 ## Installation
 
@@ -86,7 +86,7 @@ echo_off
 
 ## License
 
-Copyright © 2011 Dan Sosedoff.
+Copyright &copy; 2011-2013 Dan Sosedoff.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
