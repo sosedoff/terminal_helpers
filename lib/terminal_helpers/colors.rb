@@ -1,4 +1,6 @@
 module Colors
+  COLORS = [:red, :green, :dark_green, :yellow, :blue, :dark_blue, :purple, :magenta]
+
   def red        ; colorize(self, "\e[1m\e[31m") ; end
   def green      ; colorize(self, "\e[1m\e[32m") ; end
   def dark_green ; colorize(self, "\e[32m")      ; end
