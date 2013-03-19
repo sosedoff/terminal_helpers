@@ -3,8 +3,8 @@ require File.expand_path('../lib/terminal_helpers/version', __FILE__)
 Gem::Specification.new do |s|
   s.name        = "terminal_helpers"
   s.version     = TerminalHelpers::VERSION.dup
-  s.summary     = "Various helpers for console-based applications"
-  s.description = "Various helpers for console-based applications"
+  s.summary     = "Collection of helper methods for terminal applications"
+  s.description = "Collection of helper methods for terminal applications"
   s.homepage    = "http://github.com/sosedoff/terminal_helpers"
   s.authors     = ["Dan Sosedoff"]
   s.email       = ["dan.sosedoff@gmail.com"]

@@ -1,20 +1,16 @@
 # TerminalHelpers
 
-This is a collection of helper method for your console-based applications.
-
-It does not have any gem dependencies and could be easily plugged-in into your existing code.
-
-Was initially inspired by `heroku` terminal utility.
+Collection of helper methods for terminal applications. Zero dependencies. 
 
 ## Installation
 
-You can install it using rubygems:
+Install from rubygems:
 
 ```
 gem install terminal_helpers
 ```
 
-Or build it:
+Build locally:
 
 ```
 rake install
