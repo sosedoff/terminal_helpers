@@ -19,7 +19,7 @@ module TerminalHelpers
     echo_off if options[:echo] == false
     
     print(title_str)
-    result = gets.strip
+    result = STDIN.gets.strip
     result = options[:default] if result.empty? && options.key?(:default)
     #result = result.scan(/[a-z\d\_\-]{1,}/i) if options.key?(:array)
     
@@ -67,7 +67,7 @@ module TerminalHelpers
   #
   def prompt(prefix='> ')
     print("#{prefix}")
-    gets.strip
+    STDIN.gets.strip
   end
   
   # Print an information message
